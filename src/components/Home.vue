@@ -1,14 +1,17 @@
 <template>
-  <div>
-    <h1>Здарова заебал</h1>
-  </div>
+ <div>
+   <h1>
+     Здарова заебал
+   </h1>
+ </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld'
+  name: 'Home'
 }
 </script>
 
-<style scoped lang="scss">
+<style scoped>
+
 </style>
