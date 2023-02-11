@@ -1,14 +1,26 @@
 <template>
-  <div>
-    <h1>Привет заебал</h1>
+  <div class="conteiner">
+    <div class="conteiner-item">
+      Login<input v-model="login">
+      password<input v-model="password" type="password">
+      <button v-on:click="onSubmit">Submit</button>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld'
+  name: 'HelloWorld',
+  data () {
+    return {
+      login: '',
+      password: ''
+    }
+  },
+  methods: {
+    onSubmit () {
+    }
+  }
 }
-</script>
 
-<style scoped lang="scss">
-</style>
+</script>
