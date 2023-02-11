@@ -3,7 +3,7 @@
     <div class="conteiner-item">
       Login<input v-model="login">
       password<input v-model="password" type="password">
-      <button v-on:click="onSubmit">Submit</button>
+      <button v-on:click="onSubmit">кнопкааааааа</button>
     </div>
   </div>
 </template>
